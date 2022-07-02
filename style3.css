@@ -1,0 +1,12 @@
+.square {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-around; 
+  align-content: flex-start;
+  
+  flex-flow: row wrap;
+}
