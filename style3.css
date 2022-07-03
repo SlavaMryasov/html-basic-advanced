@@ -1,12 +1,42 @@
 .square {
-    padding: 15px;
+    padding: 30px;
     border: 1px solid black;
+    margin: 10px;
+    
+}
+
+.element {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+padding: 8px 5px;
+margin: auto;
 }
 
 .conteiner {
-  display: flex;
-  justify-content: space-around; 
-  align-content: flex-start;
+   
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    outline: 1px solid #000;
   
-  flex-flow: row wrap;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #000;
+
+}
+.logo-holder{
+  float: left;
+  padding-left: 20px ;
+  width: 150px;
+  height: 30px;
+  outline: 1px solid #000;
+  border-radius: 50px;
+}
+.search
