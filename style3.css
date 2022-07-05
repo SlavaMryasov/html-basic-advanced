@@ -40,18 +40,6 @@ margin: auto;
   border-radius: 50px;
   
 }
-
-
-button {
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  right: 150px;
-  background: #ffffff;
-  border-radius: 5px;
-  
-  outline: 1px solid #000;
-}
 .nav {
   display: flex;
   justify-content: flex-start;
@@ -61,29 +49,22 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     outline: 1px solid #000;
+    border:#000;
 }
 
-input {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  border-radius: 50px;
+
+.right {
  
-  
+  margin-left:auto ;
 }
-.submit {
-  position: absolute;
-left: 8.33%;
-right: 10.51%;
-top: 8.33%;
-bottom: 10.51%;
 
-background: #000000;
+button {
+  background: none; 
+  border-radius: 50px;
 }
-#ser {
-position: absolute;
-left: 5.69%;
-right: 92.89%;
-top: 40.04%;
-bottom: 55.62%;
+input {
+  border: none;
+}
+.cart {
+  border-radius: 20px;
 }
