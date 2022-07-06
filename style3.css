@@ -42,7 +42,8 @@ margin: auto;
 }
 .nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   position: relative;
   padding-left: 10px;
     padding-right: 1px;
@@ -54,17 +55,42 @@ margin: auto;
 
 
 .right {
- 
-  margin-left:auto ;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 50px;
+  height: 30px;
+  width: 300px;
+}
+.righ+ {
+  display: flex;??????????????????????????????
+  justify-content: flex-end;
+  padding-left: 500px;
+  height: 30px;
+  width: 300px;
 }
 
 button {
+  
   background: none; 
   border-radius: 50px;
 }
 input {
-  border: none;
+  border: none;  
+ 
 }
-.cart {
-  border-radius: 20px;
+#cart {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgb(245, 238, 238);
+ 
+}
+#man{
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgb(245, 238, 238);
+}
+#submit{
+ 
 }
