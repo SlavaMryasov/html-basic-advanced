@@ -1,28 +1,7 @@
-.square {
-    padding: 45px;
-    border: 1px solid black;
-    margin: 1px;
-    
-}
-a {
+body{
   display: flex;
-  justify-content: center;
-  margin-top: 2px;
-  margin-bottom: 20px;
-}
-
-.element {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-around;
-padding: 8px 5px;
-margin: auto;
-}
-
-.conteiner {
-  position: relative;
-    outline: 1px solid #000;
-  
+  flex-direction: column;
+  height: 99vh;
 }
 
 .header {
@@ -32,15 +11,7 @@ margin: auto;
   color: #000;
 
 }
-.logo-holder{
-  float: left;
-  padding-left: 20px ;
-  width: 100px;
-  height: 30px;
-  outline: 1px solid #000;
-  border-radius: 50px;
-  
-}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -54,6 +25,15 @@ margin: auto;
     border:#000;
 }
 
+.logo-holder{
+  float: left;
+  padding-left: 20px ;
+  width: 100px;
+  height: 30px;
+  outline: 1px solid #000;
+  border-radius: 50px;
+  
+}
 
 .right {
   display: flex;
@@ -63,11 +43,18 @@ margin: auto;
   width: 280px;
 }
 
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
 button {
-  
   background: none; 
   border-radius: 50px;
 }
+
 input {
   border: none;  
  
@@ -85,6 +72,27 @@ input {
   height: 30px;
   background: rgb(245, 238, 238);
 }
+
+.conteiner {
+  position: relative;
+    outline: 1px solid #000;
+    min-height: 80vh;
+}
+
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ padding: 8px 5px;
+ margin: auto;
+ }
+
+.square {
+    padding: 45px;
+    border: 1px solid black;
+    margin: 1px;  
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -96,4 +104,5 @@ footer {
     padding-bottom: 10px;
     outline: 1px solid #000;
     border:#000;
+    
 }
