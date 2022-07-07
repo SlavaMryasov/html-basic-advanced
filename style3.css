@@ -1,8 +1,14 @@
 .square {
-    padding: 30px;
+    padding: 45px;
     border: 1px solid black;
-    margin: 10px;
+    margin: 1px;
     
+}
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 20px;
 }
 
 .element {
@@ -14,12 +20,7 @@ margin: auto;
 }
 
 .conteiner {
-   
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    position: center;
+  position: relative;
     outline: 1px solid #000;
   
 }
@@ -56,17 +57,10 @@ margin: auto;
 
 .right {
   display: flex;
-  justify-content: flex-start;
-  padding-right: 50px;
+  justify-content: space-between;
+  padding-right: 10px;
   height: 30px;
-  width: 300px;
-}
-.righ+ {
-  display: flex;??????????????????????????????
-  justify-content: flex-end;
-  padding-left: 500px;
-  height: 30px;
-  width: 300px;
+  width: 280px;
 }
 
 button {
@@ -91,6 +85,15 @@ input {
   height: 30px;
   background: rgb(245, 238, 238);
 }
-#submit{
- 
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: relative;
+  padding-left: 10px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 1px solid #000;
+    border:#000;
 }
