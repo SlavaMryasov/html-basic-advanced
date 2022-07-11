@@ -63,16 +63,20 @@ input {
   .conteiner{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     outline: 1px solid #000;
    height: 100vh;
   }
 
 .wood{
   margin-left: 2%;
-  position: absolute;
-  width: 500px;
-    height: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 200vw;
+    height: 5vh;
 }
+
 
 
 .left{
@@ -119,7 +123,7 @@ input[name="r"] {
 
 .navigation{
   justify-content: center;
-  transform: translateY(40%);
+ margin-top: 5vh;
   display: flex;
   max-width: 130%;
   max-height: 20%;
@@ -193,18 +197,19 @@ margin-left: 20px;
     justify-content: space-between;
     flex-wrap: nowrap;
    max-height: 10vh;
-    min-width: 20vw;
+    min-width: 30vw;
     margin-left: 2vw;
     margin-top: 10vh;
 
   }
 .rating{
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
 .information{
-  
+  width: 70vw;
+  height: 50vh;
 }
 
 
