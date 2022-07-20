@@ -181,38 +181,51 @@ margin-left: 20px;
 .right{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: flex-start;
     width: 50vw;
   }
   .position{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    min-width: 100vw;
+    min-width: 100%;
+    flex-direction: column;
     
     
   }
   .h_and_star{
     display: flex;
-    justify-content: space-between;
+   
     flex-wrap: nowrap;
    max-height: 10vh;
-    min-width: 30vw;
+    min-width: 20vw;
     margin-left: 2vw;
     margin-top: 10vh;
+    margin-bottom: 1vh;
+    
 
   }
 .rating{
-  margin-left: 5vw;
-  margin-top: 5vh;
+  margin-left: 50px;
+  margin-top: 3vh;
 }
 
 .information{
-  width: 70vw;
-  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;  
 }
 
+.price{
 
+  margin-left: 55%;
+  font-size: 30px;
+}
+
+.qa{
+  display: flex;
+  
+  flex-direction: column;
+}
 
 
 
