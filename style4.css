@@ -223,13 +223,54 @@ margin-left: 20px;
 
 .qa{
   display: flex;
-  
   flex-direction: column;
+  max-width: 12%;
 }
 
+.add{
+  display: flex;
+  justify-content: flex-end;
+  max-width: 70%;
+  position: relative;
+  right: -2vw;
+  top: -4vh;
+    
+}
+#add{
+  width: 8vw;
+  height: 5vh;
+  background-color: rgb(233, 228, 228);
+}
 
-
-
+.message{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 8vw;
+  
+}
+#me{
+  border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    background: rgb(245, 238, 238);
+    font-size: 2.5vh;
+    
+    
+    
+}
+.fa-twitter{
+  position: relative;
+    right: 10%;
+}
+.fa-facebook-official{
+  position: relative;
+    right: 10%;
+}
+.fa-envelope{
+  position: relative;
+    right: 22%;
+}
 
 
 
