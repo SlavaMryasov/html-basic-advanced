@@ -1,0 +1,113 @@
+html{
+    height: 100vh;  
+    
+ }
+
+ body{
+    display: flex;
+    flex-direction: column;
+  height: 100vh;
+  margin: 2px;
+  
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    outline: 1px solid black;
+    min-height: 50px;
+}
+
+ .logo {
+    float: left;
+    padding-left: 20px ;
+    width: 100px;
+    height: 30px;
+    outline: 1px solid #000;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+ .righthead{
+   display: flex; 
+   justify-content: space-between;
+   height: 30px;
+   width: 280px;
+   margin-right: 1%;
+    margin-top: 10px;
+}
+button{
+    background: none; 
+    border-radius: 50px;
+      
+}
+input {
+    border: none;  
+   
+    }
+#cart {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background: rgb(245, 238, 238);
+   
+  }
+  #man{
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background: rgb(245, 238, 238);
+  }
+  .conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    outline: 1px solid #000;
+   height: 100vh;
+  }
+  .nexus{
+    display: flex;
+    justify-content: flex-start;
+   max-width: 80vw;
+   height: 20vh; 
+   outline: 1px solid #000;
+      border:#000;
+      margin-left: 5vw;
+      margin-top: 5vh;
+  }
+.pic{
+    max-width: 10vw;
+    margin-top: 3.5vh;
+    margin-left: 5vw;  
+}
+.pic img{
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.name{ 
+    margin-left: 5vw;
+    margin-top: 3vh;
+    
+}
+ 
+  .shelves{
+    min-width: 80vw;
+    min-height: 20vh; 
+    outline: 1px solid #000;
+       border:#000;
+       margin-left: 5vw;
+       margin-top: 2vh;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-height: 50px;
+      outline: 1px solid #000;
+      border:#000;
+     margin-top: auto ;
+     
+  }
