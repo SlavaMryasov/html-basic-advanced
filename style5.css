@@ -66,6 +66,10 @@ input {
     outline: 1px solid #000;
    height: 100vh;
   }
+
+  .left{
+    width: 80%;
+  }
   .nexus{
     display: flex;
     justify-content: flex-start;
@@ -76,9 +80,16 @@ input {
       margin-left: 5vw;
       margin-top: 5vh;
   }
+.le{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+} 
+  
 .pic{
     max-width: 10vw;
-    margin-top: 3.5vh;
+    margin-top: 4%;
     margin-left: 5vw;  
 }
 .pic img{
@@ -86,20 +97,51 @@ input {
  max-height: 100%;
 }
 
+
 .name{ 
     margin-left: 5vw;
     margin-top: 3vh;
+    font-size: 25px;
+    font-weight: 600;
     
+  
+}
+.ri{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+
+}
+.qa{
+  margin-top: 6vh;
+  margin-left: 18vw;
+}
+
+.price{
+  margin-top: 1vh;
+  margin-left: 2vw;
+  font-size: 40px;
 }
  
   .shelves{
-    min-width: 80vw;
-    min-height: 20vh; 
-    outline: 1px solid #000;
-       border:#000;
-       margin-left: 5vw;
-       margin-top: 2vh;
+    display: flex;
+    justify-content: flex-start;
+   max-width: 80vw;
+   height: 20vh; 
+   outline: 1px solid #000;
+      border:#000;
+      margin-left: 5vw;
+      margin-top: 5vh;
   }
+  .total{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+    max-height: 5vh;
+    margin-top: -2%;
+  }
+
 
   footer {
     display: flex;
