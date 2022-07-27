@@ -1,0 +1,42 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.form {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: Azure;
+    transform: translate(-50%,-50%);
+    outline: 1px solid #000;
+   
+} 
+.input-form {
+    margin: 5px; 
+}
+#submit {
+    border-radius: 50px;
+    width: 97%;
+    align: center;
+    margin-left: 2px
+}
+#reg {
+	display: block;
+	text-align: right;
+}
+
+#re {
+    margin-bottom: 10px; 
+}
+
+#reg {
+    margin-top: 10px; 
+    margin-right: 5px;
+
+}
+
+
