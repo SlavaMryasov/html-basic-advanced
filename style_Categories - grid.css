@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   height: 99vh;
@@ -9,7 +9,6 @@ body{
   justify-content: space-between;
   padding: 10px;
   color: #000;
-
 }
 
 .nav {
@@ -19,20 +18,19 @@ body{
   position: relative;
   padding-left: 10px;
     padding-right: 1px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    outline: 1px solid #000;
-    border:#000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 1px solid #000;
+  border: #000;
 }
 
-.logo-holder{
+.logo-holder {
   float: left;
-  padding-left: 20px ;
+  padding-left: 20px;
   width: 100px;
   height: 30px;
   outline: 1px solid #000;
   border-radius: 50px;
-  
 }
 
 .search_and_buttons {
@@ -51,13 +49,12 @@ a {
 }
 
 button {
-  background: none; 
+  background: none;
   border-radius: 50px;
 }
 
 input {
-  border: none;  
- 
+  border: none;
 }
 #cart {
   border-radius: 5px;
@@ -65,9 +62,8 @@ input {
   height: 30px;
   background: rgb(245, 238, 238);
   margin-left: 1vw;
- 
 }
-#man{
+#man {
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -79,30 +75,29 @@ input {
   justify-content: space-between;
   flex-wrap: wrap;
   outline: 1px solid #000;
- height: 100vh;
+  height: 100vh;
 }
 
 .element {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
- padding: 8px 5px;
- margin: auto;
- }
+  padding: 8px 5px;
+  margin: auto;
+}
 
 .square {
-    padding: 45px;
-    border: 1px solid black;
-    margin: 1px;  
+  padding: 45px;
+  border: 1px solid black;
+  margin: 1px;
 }
 
 footer {
   display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    min-height: 50px;
-      outline: 1px solid #000;
-      border:#000;
-     margin-top: auto ;
-    
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 50px;
+  outline: 1px solid #000;
+  border: #000;
+  margin-top: auto;
 }
