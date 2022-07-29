@@ -72,12 +72,16 @@ input {
   background: rgb(245, 238, 238);
 }
 
-.conteiner {
+.container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   outline: 1px solid #000;
   height: 100vh;
+}
+.ele{
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .element {

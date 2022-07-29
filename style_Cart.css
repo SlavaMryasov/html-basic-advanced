@@ -72,7 +72,7 @@ input {
   background: rgb(245, 238, 238);
 }
 
-.conteiner {
+.container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

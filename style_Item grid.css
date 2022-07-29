@@ -1,0 +1,266 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 1px solid #000;
+  border: #000;
+}
+
+.logo-holder {
+  float: left;
+  padding-left: 20px;
+  width: 100px;
+  height: 30px;
+  outline: 1px solid #000;
+  border-radius: 50px;
+}
+
+.search_and_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  height: 30px;
+  width: 280px;
+}
+#search{
+  outline: 1px solid #000;
+}
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  outline: 1px solid #000;
+  height: 100vh;
+}
+
+.sidebar{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+  outline: 1px solid #000;
+}
+a {
+
+}
+#electronics{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#electronics::after {
+  content: "Electronics";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#furniture{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+#furniture::after {
+  content: "Furniture";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#fashion{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#fashion::after {
+  content: "Fashion";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#shoes{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#shoes::after {
+  content: "Shoes";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#accessories{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#accessories::after {
+  content: "Accessories";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#sporting_goods{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#sporting_goods::after {
+  content: "Sporting_Goods";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#health_and_beauty{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#health_and_beauty::after {
+  content: "Health_&_Beauty";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#toys_and_games{
+  outline: 2px solid #000; 
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(223, 226, 226);
+  margin-left: 1vw;
+}
+
+#toys_and_games::after {
+  content: "Toys_&_Games";
+  height: 10vh;
+  width: 10vw;
+  margin-left: 10vw;
+  font-size: 15px;
+  cursor: pointer;
+}
+.element {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1vw;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-left: 10vw;
+ 
+}
+
+  @media (max-width: 1000px) {
+    .element {
+      display: inline-block;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 1vw;
+      justify-content: center;
+      margin-top: 10vh;
+      margin-left: 10vw;
+    }
+  }
+
+
+
+
+.square {
+  padding: 45px;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 50px;
+  outline: 1px solid #000;
+  border: #000;
+  margin-top: auto;
+}
+
