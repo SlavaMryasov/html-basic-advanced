@@ -40,9 +40,11 @@ body {
   height: 30px;
   width: 280px;
 }
-#search{
+
+#search {
   outline: 1px solid #000;
 }
+
 a {
   display: flex;
   justify-content: center;
@@ -65,7 +67,7 @@ button {
   height: 100vh;
 }
 
-.sidebar{
+.sidebar {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -73,11 +75,11 @@ button {
   width: 250px;
   outline: 1px solid #000;
 }
-a {
 
-}
-#electronics{
-  outline: 2px solid #000; 
+a {}
+
+#electronics {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -94,14 +96,15 @@ a {
   cursor: pointer;
 }
 
-#furniture{
-  outline: 2px solid #000; 
+#furniture {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
   background-color: rgb(223, 226, 226);
   margin-left: 1vw;
 }
+
 #furniture::after {
   content: "Furniture";
   height: 10vh;
@@ -111,8 +114,8 @@ a {
   cursor: pointer;
 }
 
-#fashion{
-  outline: 2px solid #000; 
+#fashion {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -129,8 +132,8 @@ a {
   cursor: pointer;
 }
 
-#shoes{
-  outline: 2px solid #000; 
+#shoes {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -147,8 +150,8 @@ a {
   cursor: pointer;
 }
 
-#accessories{
-  outline: 2px solid #000; 
+#accessories {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -165,8 +168,8 @@ a {
   cursor: pointer;
 }
 
-#sporting_goods{
-  outline: 2px solid #000; 
+#sporting_goods {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -183,8 +186,8 @@ a {
   cursor: pointer;
 }
 
-#health_and_beauty{
-  outline: 2px solid #000; 
+#health_and_beauty {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -201,8 +204,8 @@ a {
   cursor: pointer;
 }
 
-#toys_and_games{
-  outline: 2px solid #000; 
+#toys_and_games {
+  outline: 2px solid #000;
   border-radius: 5px;
   width: 30px;
   height: 30px;
@@ -218,6 +221,7 @@ a {
   font-size: 15px;
   cursor: pointer;
 }
+
 .element {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -226,35 +230,30 @@ a {
   justify-content: center;
   margin-top: 10vh;
   margin-left: 10vw;
- 
+
 }
 
-  @media screen and (max-width: 1200px) {
-    .element {
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      grid-column-gap: 1vw;
-      justify-content: center;
-      margin-top: 10vh;
-      margin-left: 20vw;
-    }
-    .sidebar{
-      display: none;
-  
-  }
+@media screen and (max-width: 1200px) {
+  .element {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 1vw;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 20vw;
   }
 
+  .sidebar {
+    display: none;
 
+  }
+}
 
 .square {
   padding: 45px;
   border: 1px solid black;
   margin: 1px;
 }
-
-
-
-
 
 footer {
   display: flex;
@@ -265,4 +264,3 @@ footer {
   border: #000;
   margin-top: auto;
 }
-
