@@ -229,18 +229,20 @@ a {
  
 }
 
-  @media (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     .element {
-      display: inline-block;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5, 1fr);
+      grid-template-rows: repeat(6, 1fr);
       grid-column-gap: 1vw;
       justify-content: center;
       margin-top: 10vh;
-      margin-left: 10vw;
+      margin-left: 20vw;
     }
+    .sidebar{
+      display: none;
+  
   }
-
+  }
 
 
 
