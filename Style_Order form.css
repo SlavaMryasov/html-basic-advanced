@@ -1,0 +1,145 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 99vh;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	color: #000;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: 1px solid #000;
+	border: #000;
+}
+
+.logo-holder {
+	float: left;
+	padding-left: 20px;
+	width: 100px;
+	height: 30px;
+	outline: 1px solid #000;
+	border-radius: 50px;
+}
+
+.search_and_buttons {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10px;
+	height: 30px;
+	width: 280px;
+}
+
+#search {
+	outline: 1px solid #000;
+}
+
+a {
+	display: flex;
+	justify-content: center;
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+
+button {
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	outline: 1px solid #000;
+	height: 100vh;
+}
+
+.card {
+	width: 751px;
+	height: 381px;
+	position: relative;
+
+}
+
+.card-back,
+.card-front {
+	width: 535px;
+	height: 343px;
+	border: 1px solid black;
+	border-radius: 15px;
+	position: absolute;
+	background-color: aliceblue;
+
+}
+
+.card-back {
+	left: 20%;
+}
+
+.card-front {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	top: 15%;
+}
+
+#cvv {
+	width: 80px;
+	margin-left: 80%;
+	margin-top: 20%;
+}
+
+.card-number {
+	display: flex;
+	justify-content: center;
+	margin-top: 15%;
+}
+
+#card-number {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#date {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+
+}
+
+.date {
+	margin-left: 9%;
+}
+
+#holder-name {
+	margin-bottom: 10%;
+	margin-left: 9%;
+	width: 50%;
+
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	min-height: 50px;
+	outline: 1px solid #000;
+	border: #000;
+	margin-top: auto;
+}
