@@ -25,7 +25,6 @@ body {
 }
 
 .logo-holder {
-  float: left;
   padding-left: 20px;
   width: 100px;
   height: 30px;
@@ -118,7 +117,7 @@ input {
 }
 
 .name {
-  margin-left: 5vw;
+  margin-left: 2vw;
   margin-top: 3vh;
   font-size: 25px;
   font-weight: 600;
@@ -231,43 +230,10 @@ h1{
 }
 
 @media screen and (max-width:600px){
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    height: 99vh;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    color: #000;
-  }
-  
   .nav {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    outline: 1px solid #000;
-    border: #000;
     background-color: aquamarine;
   }
-  
-  .logo-holder {
-    float: left;
-    padding-left: 20px;
-    width: 100px;
-    height: 30px;
-    outline: 1px solid #000;
-    border-radius: 50px;
-  }
-  
+
   .search_and_buttons {
     display: flex;
     justify-content: flex-end;
@@ -275,65 +241,9 @@ h1{
     height: 30px;
     width: 280px;
   }
-  #search {
-  background-color: rgb(245, 238, 238);  
-  width: 24.5px;
-  height: 24.5px;
-    outline: 2px solid black;
-    border-radius: 5px;
-    margin-top: 1.8px;
-    
-    
-  }
-  #search:hover{
-    position: absolute;
-    top:40px;
-    right: 10px;
-    width: 150px;
-    height: 25px;
-    
-    transition-duration: 2s;
-    transition-delay: 2s;
-  }
-  
-  a {
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-    margin-bottom: 20px;
-  }
-  
+
   button {
-    background: none;
-    border-radius: 50px;
-  }
-  
-  input {
-    border: none;
-  }
-  
-  #cart {
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    background: rgb(245, 238, 238);
-    margin-left: 1vw;
-  }
-  
-  #man {
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    background: rgb(245, 238, 238);
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    
-    flex-wrap: wrap;
-    outline: 1px solid #000;
-    height: 100vh;
+    margin-left: 2px;
   }
   
   .left_part {
@@ -346,55 +256,38 @@ h1{
     max-width: 88vw;
     height: 20vh;
     outline: 1px solid #000;
-    border: #000;
-    margin-left: 5vw;
-    margin-top: 5vh;
   }
   
   .picture_and_name {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
+    width: 60%;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
   
   .picture {
-    min-width: 20vw;
-    max-width: 20vw;
-    margin-top: 25px;
-    margin-left: 5vw;
+    margin-left: 2vw;
     margin-bottom: 25px;
-    outline: 1px solid #000;
-    border: #000;
-  }
-  
-  .picture img {
-    max-width: 100%;
-    max-height: 100%;
   }
   
   .name {
-    margin-left: 1vw;
-    margin-top: 3vh;
-    font-size: 25px;
-    font-weight: 600;
+    margin-right: 5vw;
   }
   
   .quantity_and_price {
-    width: 50%;
+    width: 40%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
   
   .quantity {
-    margin-top: 6vh;
-    margin-left: 10vw;
+    margin-top: 4vh;
+    
   }
   
   .price {
     margin-top: 1vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
     font-size: 30px;
   } 
   
@@ -408,7 +301,6 @@ h1{
   }
   
   .long_button {
-    display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
     margin-top: -8vh;
@@ -420,7 +312,6 @@ h1{
     margin-right: 1vw;
     width: 20%;
     height: 5vh;
-  
   }
   
   #proceed_to_checkout {
@@ -430,43 +321,6 @@ h1{
   
   .basket_summary {
     display: none;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 80%;
-  }
-  
-  .heading_basket {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-width: 15%;
-    margin-top: 2vh;
-  }
-  
-  .hr {
-    width: 70%;
-  }
-  
-  .basket_total {
-    display: flex;
-    justify-content: center;
-    font-size: 200%;
-    max-height: 5%;
-    position: relative;
-    top: -2%;
-  }
-  
-  .button_proceed {
-    display: flex;
-    justify-content: center;
-    min-width: 30%;
-  }
-  
-  #proceed {
-    width: 100%;
-    height: 100%;
-    margin-top: 10%;
   }
   
   footer {
@@ -478,5 +332,122 @@ h1{
     border: #000;
     margin-top: auto;
   }
+}
 
+@media screen and (max-width:480px){
+  .nav {
+    background-color: aquamarine;
+  }
+
+  .search_and_buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    height: 30px;
+    width: 280px;
+  }
+  #search{
+    width: 20px;
+  }
+  #search:hover{
+    width: 50px;
+  }
+  button {
+    margin-left: 2px;
+  }
+  
+  .left_part {
+    width: 100%;
+  }
+  
+  .nexus, .shelves {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 85vw;
+    height: 25vh;
+    outline: 1px solid #000;
+  }
+  
+  .picture_and_name {
+    width: 60%;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .picture {
+    
+    margin-left: 2vw;
+    margin-bottom: 2px;
+  }
+  
+  .name {
+   display: flex;
+   justify-content: center;
+   max-width: 120px;
+   margin-top: 5px;
+  }
+  
+  .quantity_and_price {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .quantity {
+    margin-top: 1vh;
+    order: 1;
+  }
+  
+  .price {
+    height: 7vh;
+    margin-top: 1vh;
+    margin-left: 5vw;
+    font-size: 30px;
+  } 
+  
+  .total {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+    max-height: 5vh;
+    margin-top: -2%;
+    margin-right: 4vw;
+  }
+  
+  .long_button {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: -8vh;
+    margin-left: 4.5vw;
+    min-height: 10vh;
+    max-width: 200px;
+  }
+  
+  #continue_shoping {
+    margin-right: 1vw;
+    min-width: 100px;
+    height: 5vh;
+  }
+  
+  #proceed_to_checkout {
+    width: 100px;
+    height: 5vh;
+  }
+  
+  .basket_summary {
+    display: none;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-height: 50px;
+    outline: 1px solid #000;
+    border: #000;
+    margin-top: auto;
+  }
 }
