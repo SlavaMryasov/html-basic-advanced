@@ -79,23 +79,20 @@ input {
   outline: 1px solid #000;
   height: 100vh;
 }
-.ele{
-  display: flex;
-  flex-wrap: nowrap;
-}
 
 .element {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 8px 5px;
-  margin: auto;
+  
 }
 
 .square {
-  padding: 45px;
+  width: 100px;
+  height: 100px;
   border: 1px solid black;
-  margin: 1px;
+  margin: 5px;
 }
 
 footer {
@@ -106,4 +103,15 @@ footer {
   outline: 1px solid #000;
   border: #000;
   margin-top: auto;
+}
+
+
+@media screen and (max-width: 921px){
+  .empti {
+    margin: 10px;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 4;
+  }
+  
 }
