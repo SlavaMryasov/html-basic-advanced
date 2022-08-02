@@ -83,7 +83,8 @@ input {
   width: 80%;
 }
 
-.nexus, .shelves {
+.nexus,
+.shelves {
   display: flex;
   justify-content: space-between;
   max-width: 80vw;
@@ -132,7 +133,7 @@ input {
 
 .quantity {
   margin-top: 6vh;
- 
+
 }
 
 .price {
@@ -220,7 +221,7 @@ footer {
   margin-top: auto;
 }
 
-h1{
+h1 {
   font-size: 3vh;
 }
 
@@ -229,7 +230,7 @@ h1{
   border-radius: 20px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   .nav {
     background-color: aquamarine;
   }
@@ -245,52 +246,53 @@ h1{
   button {
     margin-left: 2px;
   }
-  
+
   .left_part {
     width: 100%;
   }
-  
-  .nexus, .shelves {
+
+  .nexus,
+  .shelves {
     display: flex;
     justify-content: flex-start;
     max-width: 88vw;
     height: 20vh;
     outline: 1px solid #000;
   }
-  
+
   .picture_and_name {
     width: 60%;
     justify-content: space-between;
     flex-wrap: nowrap;
   }
-  
+
   .picture {
     margin-left: 2vw;
     margin-bottom: 25px;
   }
-  
+
   .name {
     margin-right: 5vw;
   }
-  
+
   .quantity_and_price {
     width: 40%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  
+
   .quantity {
     margin-top: 4vh;
-    
+
   }
-  
+
   .price {
     margin-top: 1vh;
     margin-left: 15vw;
     font-size: 30px;
-  } 
-  
+  }
+
   .total {
     display: flex;
     justify-content: flex-end;
@@ -299,7 +301,7 @@ h1{
     margin-top: -2%;
     margin-right: 4vw;
   }
-  
+
   .long_button {
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -307,22 +309,22 @@ h1{
     margin-left: 4.5vw;
     min-height: 10vh;
   }
-  
+
   #continue_shoping {
     margin-right: 1vw;
     width: 20%;
     height: 5vh;
   }
-  
+
   #proceed_to_checkout {
     width: 20%;
     height: 5vh;
   }
-  
+
   .basket_summary {
     display: none;
   }
-  
+
   footer {
     display: flex;
     justify-content: center;
@@ -334,80 +336,90 @@ h1{
   }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
   .nav {
-    background-color: aquamarine;
+    background-color: rosybrown;
+  }
+  
+  #search {
+    width: 25px;
+    height: 25px;
+    background-image: url(pupa.png);
+    background-size: 25px 25px;
+    color: transparent;
+    border-radius: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(245, 238, 238);
+    outline: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1.5px;
   }
 
-  .search_and_buttons {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
-    height: 30px;
-    width: 280px;
+  #search:focus {
+    outline: 1px solid #000;
+    background-image: none;
+    width: 100px;
+    border-radius: 15px;
   }
-  #search{
-    width: 20px;
+
+  input:focus[placeholder] {
+    color: black !important;
   }
-  #search:hover{
-    width: 50px;
-  }
+
   button {
     margin-left: 2px;
   }
-  
+
   .left_part {
     width: 100%;
   }
-  
-  .nexus, .shelves {
+
+  .nexus,
+  .shelves {
     display: flex;
     justify-content: flex-start;
     max-width: 85vw;
     height: 25vh;
     outline: 1px solid #000;
   }
-  
+
   .picture_and_name {
     width: 60%;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
+
   .picture {
-    
     margin-left: 2vw;
     margin-bottom: 2px;
   }
-  
+
   .name {
-   display: flex;
-   justify-content: center;
-   max-width: 120px;
-   margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 120px;
+    margin-top: 5px;
   }
-  
+
   .quantity_and_price {
     width: 50%;
-    display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
     flex-direction: column;
   }
-  
+
   .quantity {
     margin-top: 1vh;
     order: 1;
   }
-  
+
   .price {
     height: 7vh;
     margin-top: 1vh;
     margin-left: 5vw;
-    font-size: 30px;
-  } 
-  
+  }
+
   .total {
     display: flex;
     justify-content: flex-end;
@@ -416,7 +428,7 @@ h1{
     margin-top: -2%;
     margin-right: 4vw;
   }
-  
+
   .long_button {
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -425,29 +437,17 @@ h1{
     min-height: 10vh;
     max-width: 200px;
   }
-  
+
   #continue_shoping {
     margin-right: 1vw;
     min-width: 100px;
     height: 5vh;
   }
-  
+
   #proceed_to_checkout {
     width: 100px;
     height: 5vh;
   }
-  
-  .basket_summary {
-    display: none;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    min-height: 50px;
-    outline: 1px solid #000;
-    border: #000;
-    margin-top: auto;
-  }
+
+ 
 }
