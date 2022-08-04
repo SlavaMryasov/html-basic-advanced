@@ -86,18 +86,21 @@ input {
 .wood {
   display: flex;
   justify-content: flex-start;
-  width: 100%;
+  width: 99%;
   height: 5%;
   margin-left: 10px;
-  
-  
 }
+
 .cook {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 95%;
 }
+
 p {
   margin: 1px; 
+
 }
 .left_part {
   display: flex;
@@ -109,22 +112,146 @@ p {
 }
 
 .slider {
-  width: 80%;
-  height: 80%;
-
-}
-
-.navigation {
   display: flex;
   justify-content: center;
-  width: 80%;
-  height: 20%;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  outline: 1px solid black;
+  margin: 5%;
+  margin-bottom: 1px;
 }
+
+
+
+.bar {
+  width: 16%;
+  height: 90%;
+  max-width: 90px;
+  max-height: 90px;
+  outline: 1px solid black;
+  margin: 10px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  margin: 5%;
+}
+
+.test {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#slide_left, #slide_right {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+
 .right_part {
+  width: 45%;
+}
+
+.position{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 80%;
+  height: 100%;
+  flex-direction: column;
+  
+  
+}
+.h_and_star{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+ height: 10%;
+  min-width: 20vw;
+  margin-top: 10vh;
+  font-size: 2.5rem;
+}
+
+.rating{
+margin-left: 50px;
+margin-bottom: 4%;
+}
+.information{
+display: flex;
+flex-wrap: wrap; 
+font-size: 1.5rem; 
+}
+.price1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.price2 {
+  display: none;
+}
+.quantity_and_add1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  margin-bottom: 15%;
+}
+
+.quantity_and_add2 {
+  display: none;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+  font-size: 1.5rem;
+}
+
+select{
+  width: 100%;
+}
+option{
   width: 50%;
 }
 
+.add{
+display: flex;
+justify-content: flex-end;
+max-width: 70%;
+}
 
+#add{
+width: 8vw;
+height: 5vh;
+background-color: rgb(233, 228, 228);
+}
+
+.message1 {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+max-width: 30%;
+
+}
+
+.message2 {
+  display: none;
+}
+#me{
+border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  background: rgb(245, 238, 238);
+  
+}
 
 footer {
   display: flex;
@@ -134,4 +261,79 @@ footer {
   outline: 1px solid #000;
   border: #000;
   margin-top: auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .cook {
+    display: flex;
+    justify-content: center;
+  }
+  .left_part {
+    justify-content: flex-start;
+    width: 100%;
+    height: 70%;
+    flex-direction: row;
+    
+  }
+  .right_part {
+    width: 100%;
+    height: 50%;
+  }
+  .quantity_and_add1 {
+    display: none
+  }
+
+  .quantity_and_add2 {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: -10%;
+    margin-bottom: 15%;
+  }
+  
+  .test {
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
+    width: 50%;
+    flex-wrap: nowrap;
+    
+  }
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px; 
+    margin: 0;
+   
+  }
+  .navigation {
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .bar {
+    width: 90%;
+    height: 16%;
+    max-width: 90px;
+    max-height: 90px;
+    outline: 1px solid black;
+    margin: 10px;
+}
+.price2 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+  margin-bottom: 2%;
+  margin-top: -25%;
+  width: 20%;
+}
+.price1 {
+  display: none;
+}
 }
