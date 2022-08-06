@@ -1,4 +1,3 @@
-
 body {
   display: flex;
   flex-direction: column;
@@ -101,13 +100,14 @@ input {
 
 
 p {
-  margin: 1px; 
+  margin: 1px;
 
 }
+
 .left_part {
   display: flex;
   align-items: center;
-  
+
   width: 50%;
   height: 100%;
 }
@@ -128,11 +128,12 @@ p {
 .bar {
   width: 16%;
   height: 90%;
-  max-width: 90px;
-  max-height: 90px;
+  width: 90px;
+  height: 90px;
   outline: 1px solid black;
   margin: 10px;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -151,7 +152,8 @@ p {
   height: 100%;
 }
 
-#slide_left, #slide_right {
+#slide_left,
+#slide_right {
   width: 50px;
   height: 50px;
   border-radius: 10%;
@@ -160,39 +162,42 @@ p {
 .right_part {
   display: flex;
   align-items: center;
- 
+
   width: 45%;
 }
 
-.position{
+.position {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   max-width: 80%;
   height: 100%;
   flex-direction: column;
-  
-  
+
+
 }
-.h_and_star{
+
+.h_and_star {
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-end;
- height: 10%;
+  height: 10%;
   min-width: 20vw;
- 
+
   font-size: 2.5rem;
 }
 
-.rating{
-margin-left: 50px;
-margin-bottom: 4%;
+.rating {
+  margin-left: 50px;
+  margin-bottom: 4%;
 }
-.information{
-display: flex;
-flex-wrap: wrap; 
-font-size: 1.5rem; 
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
 }
+
 .price {
   display: flex;
   justify-content: flex-end;
@@ -214,42 +219,44 @@ font-size: 1.5rem;
   font-size: 1.5rem;
 }
 
-select{
+select {
   width: 100%;
 }
-option{
+
+option {
   width: 50%;
 }
 
-.add{
-display: flex;
-justify-content: flex-end;
-max-width: 70%;
+.add {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 70%;
 }
 
-#add{
-width: 8vw;
-height: 5vh;
-background-color: rgb(233, 228, 228);
+#add {
+  width: 8vw;
+  height: 5vh;
+  background-color: rgb(233, 228, 228);
 }
 
 .message1 {
-display: flex;
-flex-wrap: nowrap;
-justify-content: space-between;
-max-width: 30%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 30%;
 
 }
 
 .message2 {
   display: none;
 }
-#me{
-border-radius: 5px;
+
+#me {
+  border-radius: 5px;
   width: 50px;
   height: 50px;
   background: rgb(245, 238, 238);
-  
+
 }
 
 footer {
@@ -262,63 +269,142 @@ footer {
   margin-top: auto;
 }
 
+/* для ПК */
 @media screen and (max-width: 1600px) {
   .left_part {
     width: 60%;
   }
+
   .right_part {
     width: 40%;
     height: 90%;
   }
-  .message{
+
+  .message {
     margin-top: 12%;
   }
 }
+
+/* для телефонов*/
 @media screen and (max-width: 768px) {
-  .container{
+  .container {
     flex-direction: column;
   }
-  .cook{
+
+  .cook {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }
-  .left_part{
+
+  .left_part {
     justify-content: center;
     align-items: flex-start;
     height: 70%;
     width: 100%;
   }
+
   .right_part {
     height: 50%;
   }
-  .test{
+
+  .test {
     height: 100%;
     align-items: flex-start;
-    
+
   }
-  .slider{
+
+  .slider {
     width: 350px;
     height: 350px;
   }
-  .right_part{
+
+  .right_part {
     height: 30%;
     width: 95%;
   }
-  .position{
-    width: 100%;
-   
+
+  .position {
+    max-width: 100%;
   }
-  .h_and_star{
+
+  .h_and_star {
+    font-size: 1.8rem;
+    height: 20%;
     width: 60%;
   }
-  .information{
-    width: 70%;
-    height: 80%;
+
+  .information {
+    width: 60%;
+    height: 70%;
     overflow-y: auto;
   }
-  .price{
-    
+
+  .price {
+    margin: 0;
     font-size: 2rem;
   }
+
+  .quantity_and_add {
+    display: block;
+    padding: 0;
+  }
+
+  #add {
+    width: 100%;
+  }
+
+  .message {
+    display: none;
+
+  }
+
+  .add {
+    margin-top: 15%;
+  }
+
+  #fourth_slide,
+  #fifth_slide {
+    display: none;
+  }
+
+  .rating {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .position {
+    flex-direction: row;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+
+  body {
+    height: 100%;
+  }
+
+  .h_and_star {
+    width: 80%;
+  }
+
+  .quantity_and_add {
+    width: 30%;
+    margin-left: 10px;
+  }
+
+  #first_slide,
+  #second_slide,
+  #third_slide {
+    display: none;
+  }
+
+  .navigation {
+    justify-content: center;
+  }
+
 }
