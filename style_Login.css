@@ -1,0 +1,72 @@
+body {
+	background-color: lightgoldenrodyellow;
+}
+
+.form {
+	padding: 15px 40px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	background-color: Azure;
+	transform: translate(-50%, -50%);
+	outline: 1px solid #000;
+}
+
+.input-form {
+	margin: 5px;
+	border: 1px solid black;
+}
+
+#submit {
+	border-radius: 50px;
+	width: 97%;
+	align: center;
+	margin-left: 2px;
+}
+
+#reg {
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#checkbox {
+	margin-bottom: 10px;
+}
+
+@media screen and  (min-width: 1024px) {
+	.form {
+		padding: 25px 60px;
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		background-color: Azure;
+		transform: translate(-50%, -50%);
+		outline: 1px solid #000;
+		border-radius: 10%;
+	}
+	
+	.input-form {
+		margin: 5px;
+		border: 1px solid black;
+	}
+	
+	#submit {
+		border-radius: 50px;
+		width: 97%;
+		align: center;
+		margin-left: 2px;
+	}
+	
+	#reg {
+		margin-top: 10px;
+		margin-right: 5px;
+		text-align: right;
+	}
+	
+	#checkbox {
+		margin-bottom: 10px;
+	}
+	
+	
+}

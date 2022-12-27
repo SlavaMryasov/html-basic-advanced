@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 1px solid #000;
+  border: #000;
+}
+
+.logo-holder {
+  float: left;
+  padding-left: 20px;
+  width: 100px;
+  height: 30px;
+  outline: 1px solid #000;
+  border-radius: 50px;
+}
+
+.search_and_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  height: 30px;
+  width: 280px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: none;
+  border-radius: 50px;
+}
+
+input {
+  border: none;
+}
+
+#cart {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgb(245, 238, 238);
+  margin-left: 1vw;
+}
+
+#man {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgb(245, 238, 238);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  outline: 1px solid #000;
+  height: 100vh;
+}
+
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 8px 5px;
+  
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 50px;
+  outline: 1px solid #000;
+  border: #000;
+  margin-top: auto;
+}
+
+
+@media screen and (max-width: 921px){
+  .empti {
+    margin: 10px;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 4;
+  }
+  
+}

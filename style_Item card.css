@@ -1,0 +1,410 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  height: 98vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 1px solid #000;
+  border: #000;
+}
+
+.logo-holder {
+  padding-left: 20px;
+  width: 100px;
+  height: 30px;
+  outline: 1px solid #000;
+  border-radius: 50px;
+}
+
+.search_and_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  height: 30px;
+  width: 280px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: none;
+  border-radius: 50px;
+}
+
+input {
+  border: none;
+}
+
+#cart {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgb(245, 238, 238);
+  margin-left: 1vw;
+}
+
+#man {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background: rgb(245, 238, 238);
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  outline: 1px solid #000;
+  width: 100%;
+  height: 100%;
+}
+
+.wood {
+  display: flex;
+  justify-content: flex-start;
+  width: 99%;
+  height: 5%;
+  margin-left: 10px;
+}
+
+.cook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+
+p {
+  margin: 1px;
+
+}
+
+.left_part {
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+  height: 100%;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  outline: 1px solid black;
+  margin: 5%;
+  margin-bottom: 1px;
+}
+
+
+
+.bar {
+  width: 16%;
+  height: 90%;
+  width: 90px;
+  height: 90px;
+  outline: 1px solid black;
+  margin: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  margin: 5%;
+}
+
+.test {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#slide_left,
+#slide_right {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+.right_part {
+  display: flex;
+  align-items: center;
+
+  width: 45%;
+}
+
+.position {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 80%;
+  height: 100%;
+  flex-direction: column;
+
+
+}
+
+.h_and_star {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  height: 10%;
+  min-width: 20vw;
+
+  font-size: 2.5rem;
+}
+
+.rating {
+  margin-left: 50px;
+  margin-bottom: 4%;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.quantity_and_add {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  margin-bottom: 15%;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+  font-size: 1.5rem;
+}
+
+select {
+  width: 100%;
+}
+
+option {
+  width: 50%;
+}
+
+.add {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 70%;
+}
+
+#add {
+  width: 8vw;
+  height: 5vh;
+  background-color: rgb(233, 228, 228);
+}
+
+.message1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-width: 30%;
+
+}
+
+.message2 {
+  display: none;
+}
+
+#me {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  background: rgb(245, 238, 238);
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 50px;
+  outline: 1px solid #000;
+  border: #000;
+  margin-top: auto;
+}
+
+/* для ПК */
+@media screen and (max-width: 1600px) {
+  .left_part {
+    width: 60%;
+  }
+
+  .right_part {
+    width: 40%;
+    height: 90%;
+  }
+
+  .message {
+    margin-top: 12%;
+  }
+}
+
+/* для телефонов*/
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .cook {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .left_part {
+    justify-content: center;
+    align-items: flex-start;
+    height: 70%;
+    width: 100%;
+  }
+
+  .right_part {
+    height: 50%;
+  }
+
+  .test {
+    height: 100%;
+    align-items: flex-start;
+
+  }
+
+  .slider {
+    width: 350px;
+    height: 350px;
+  }
+
+  .right_part {
+    height: 30%;
+    width: 95%;
+  }
+
+  .position {
+    max-width: 100%;
+  }
+
+  .h_and_star {
+    font-size: 1.8rem;
+    height: 20%;
+    width: 60%;
+  }
+
+  .information {
+    width: 60%;
+    height: 70%;
+    overflow-y: auto;
+  }
+
+  .price {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .quantity_and_add {
+    display: block;
+    padding: 0;
+  }
+
+  #add {
+    width: 100%;
+  }
+
+  .message {
+    display: none;
+
+  }
+
+  .add {
+    margin-top: 15%;
+  }
+
+  #fourth_slide,
+  #fifth_slide {
+    display: none;
+  }
+
+  .rating {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .position {
+    flex-direction: row;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+
+  body {
+    height: 100%;
+  }
+
+  .h_and_star {
+    width: 80%;
+  }
+
+  .quantity_and_add {
+    width: 30%;
+    margin-left: 10px;
+  }
+
+  #first_slide,
+  #second_slide,
+  #third_slide {
+    display: none;
+  }
+
+  .navigation {
+    justify-content: center;
+  }
+
+}
